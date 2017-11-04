@@ -8,7 +8,7 @@ there will be a branch for each task:
 
 In other repository i will save the main features for show dinamic content, like views of blogs, contact form, sliders.
 
-Also, there will be a custom module for create blocks with a twig template. 
+Also, there is be a custom module for create blocks with a twig template, check my repository
 
 If you want to colaborate, contact me: https://josuevalrob.com or text me josue.valrob@gmail.com
 
