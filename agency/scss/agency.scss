@@ -1,0 +1,14 @@
+// Core variables and mixins
+@import "agency-component/variables.scss";
+@import "agency-component/mixins.scss";
+// Global CSS
+@import "agency-component/global.scss";
+// Components
+@import "agency-component/navbar.scss";
+@import "agency-component/masthead.scss";
+@import "agency-component/services.scss";
+@import "agency-component/portfolio.scss";
+@import "agency-component/timeline.scss";
+@import "agency-component/team.scss";
+@import "agency-component/contact.scss";
+@import "agency-component/footer.scss";

@@ -2,9 +2,33 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+      css/font-awesome.css: {}
+      css/agency.css: {}
       css/ie.css: {}
       css/print.css: {}
       css/screen.css: {}
+  js:
+    js/jquery.easing.min.js: {}
+
+Montserrat:
+  css:
+    base:
+      '//fonts.googleapis.com/css?family=Montserrat:400,700': { external: true }
+
+Kaushanscript:
+  css:
+    base:
+      'https://fonts.googleapis.com/css?family=Kaushan+Script': { external: true }
+
+Droidserif:
+  css:
+    base:
+      'https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic': { external: true }
+
+Robotoslab:
+  css:
+    base:
+      'https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700': { external: true }
       
 bootstrap-scripts:
   js:
