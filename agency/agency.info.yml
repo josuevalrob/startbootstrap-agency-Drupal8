@@ -25,3 +25,7 @@ regions:
 libraries:
   - 'agency/global-styling'
   - 'agency/bootstrap-scripts'
+  - 'agency/Montserrat'
+  - 'agency/Kaushanscript'
+  - 'agency/Droidserif'
+  - 'agency/Robotoslab'
