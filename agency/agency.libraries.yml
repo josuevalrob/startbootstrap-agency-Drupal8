@@ -7,6 +7,8 @@ global-styling:
       css/ie.css: {}
       css/print.css: {}
       css/screen.css: {}
+  js:
+    js/jquery.easing.min.js: {}
 
 Montserrat:
   css:
