@@ -9604,3 +9604,14 @@ p:last-child,
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
+
+/* line 13, ../scss/style.scss */
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
