@@ -9155,9 +9155,9 @@ body.navbar-is-static-top {
 }
 /* line 18, ../scss/component/_navbar.scss */
 body.navbar-is-fixed-top {
-  margin-top: 65px;
+  margin-top: 0;
 }
-/* line 21, ../scss/component/_navbar.scss */
+/* line 22, ../scss/component/_navbar.scss */
 body.navbar-is-fixed-bottom {
   padding-bottom: 65px;
 }
@@ -9168,47 +9168,47 @@ body.navbar-is-fixed-bottom {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 32, ../scss/component/_navbar.scss */
+  /* line 33, ../scss/component/_navbar.scss */
   body.toolbar-vertical.navbar-is-fixed-top .toolbar-bar, body.toolbar-vertical.navbar-is-fixed-bottom .toolbar-bar {
     position: fixed;
   }
-  /* line 35, ../scss/component/_navbar.scss */
+  /* line 36, ../scss/component/_navbar.scss */
   body.toolbar-vertical.navbar-is-fixed-top header, body.toolbar-vertical.navbar-is-fixed-bottom header {
     z-index: 500;
   }
-  /* line 41, ../scss/component/_navbar.scss */
+  /* line 42, ../scss/component/_navbar.scss */
   body.toolbar-vertical.navbar-is-fixed-top header {
     top: 39px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 47, ../scss/component/_navbar.scss */
+  /* line 48, ../scss/component/_navbar.scss */
   .navbar.container {
     max-width: 720px;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 47, ../scss/component/_navbar.scss */
+  /* line 48, ../scss/component/_navbar.scss */
   .navbar.container {
     max-width: 940px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 47, ../scss/component/_navbar.scss */
+  /* line 48, ../scss/component/_navbar.scss */
   .navbar.container {
     max-width: 1140px;
   }
 }
 
-/* line 60, ../scss/component/_navbar.scss */
+/* line 61, ../scss/component/_navbar.scss */
 .navbar .logo {
   margin-right: -15px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media screen and (min-width: 768px) {
-  /* line 60, ../scss/component/_navbar.scss */
+  /* line 61, ../scss/component/_navbar.scss */
   .navbar .logo {
     margin-right: 0;
     padding-left: 0;
@@ -9603,15 +9603,4 @@ p:last-child,
 /* line 10, ../scss/style.scss */
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-}
-
-/* line 13, ../scss/style.scss */
-.bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
 }
