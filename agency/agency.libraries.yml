@@ -9,7 +9,7 @@ global-styling:
       css/screen.css: {}
   js:
     js/jquery.easing.min.js: {}
-    js/agency.min.js: {}
+    js/agency.js: {}
     js/jqBootstrapValidation.js: {}
 
 Montserrat:
