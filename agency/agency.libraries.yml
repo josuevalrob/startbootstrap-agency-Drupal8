@@ -9,6 +9,8 @@ global-styling:
       css/screen.css: {}
   js:
     js/jquery.easing.min.js: {}
+    js/agency.min.js: {}
+    js/jqBootstrapValidation.js: {}
 
 Montserrat:
   css:
@@ -18,17 +20,17 @@ Montserrat:
 Kaushanscript:
   css:
     base:
-      'https://fonts.googleapis.com/css?family=Kaushan+Script': { external: true }
+      '//fonts.googleapis.com/css?family=Kaushan+Script': { external: true }
 
 Droidserif:
   css:
     base:
-      'https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic': { external: true }
+      '//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic': { external: true }
 
 Robotoslab:
   css:
     base:
-      'https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700': { external: true }
+      '//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700': { external: true }
       
 bootstrap-scripts:
   js:
