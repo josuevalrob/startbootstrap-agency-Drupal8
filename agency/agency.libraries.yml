@@ -4,9 +4,7 @@ global-styling:
       css/style.css: {}
       css/font-awesome.css: {}
       css/agency.css: {}
-      css/ie.css: {}
-      css/print.css: {}
-      css/screen.css: {}
+
   js:
     js/jquery.easing.min.js: {}
     js/agency.js: {}
