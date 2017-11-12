@@ -5,3 +5,14 @@
  *
  * Place your custom PHP code in this file.
  */
+
+/**
+ * Implements hook_preprocess_field().
+ */
+function agency_preprocess_field(&$vars) {
+  if ($vars['element']['#field_name'] == 'field_rounded_circle') {
+    foreach($vars['items'] as $key => $item){
+      $vars['items'][ $key ]['content']['#item_attributes']['class'][] = 'rounded-circle img-fluid';
+    }
+  }
+}

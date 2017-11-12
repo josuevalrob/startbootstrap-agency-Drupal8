@@ -9601,6 +9601,12 @@ p:last-child,
 }
 
 /* line 10, ../scss/style.scss */
-body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+.rounded-circle, .rounded-circle img {
+  border-radius: 50% !important;
+}
+
+/* line 14, ../scss/style.scss */
+.img-fluid, .img-fluid img {
+  max-width: 100%;
+  height: auto;
 }

@@ -57,7 +57,7 @@ section h3.section-subheading {
 @media (min-width: 768px) {
   /* line 52, ../scss/agency-component/_global.scss */
   section {
-    padding: 150px 0 !important;
+    padding: 150px 0;
   }
 }
 /* line 58, ../scss/agency-component/_global.scss */

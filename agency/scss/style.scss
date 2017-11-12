@@ -7,6 +7,11 @@
 // Base-theme overrides.
 @import 'overrides';
 
-body {
-	    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+.rounded-circle, .rounded-circle img {
+    border-radius: 50% !important;
+}
+
+.img-fluid, .img-fluid img  {
+    max-width: 100%;
+    height: auto;
 }
