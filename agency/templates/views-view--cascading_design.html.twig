@@ -70,6 +70,13 @@
       <div class="col-lg-12">
         <ul class="timeline">
           {{ rows }}
+		  {% if footer %}
+		    <li class="timeline-inverted">
+		    	<div class="timeline-image">
+		      		<h4>{{ footer }}</h4>
+		      	</div>
+		    </li>
+		  {% endif %}          
         </ul>
       </div>
     </div>
@@ -89,11 +96,6 @@
   {% endif %}
   {% if more %}
     {{ more }}
-  {% endif %}
-  {% if footer %}
-    <div class="view-footer">
-      {{ footer }}
-    </div>
   {% endif %}
   {% if feed_icons %}
     <div class="feed-icons">
