@@ -667,16 +667,23 @@ header.masthead .intro-text .intro-heading {
   width: 225px;
   height: 225px;
   border: 7px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* line 10, ../scss/agency-component/_team.scss */
+/* line 12, ../scss/agency-component/_team.scss */
 .team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
 }
-/* line 15, ../scss/agency-component/_team.scss */
+/* line 17, ../scss/agency-component/_team.scss */
 .team-member p {
   margin-top: 0;
+}
+/* line 20, ../scss/agency-component/_team.scss */
+.team-member .social-buttons {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* line 2, ../scss/agency-component/_contact.scss */
