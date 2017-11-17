@@ -689,7 +689,7 @@ header.masthead .intro-text .intro-heading {
 /* line 2, ../scss/agency-component/_contact.scss */
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../image/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }

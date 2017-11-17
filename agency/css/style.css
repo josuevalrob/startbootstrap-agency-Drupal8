@@ -9610,3 +9610,8 @@ p:last-child,
   max-width: 100%;
   height: auto;
 }
+
+/* line 18, ../scss/style.scss */
+.bg-light {
+  background-color: #f8f9fa !important;
+}
