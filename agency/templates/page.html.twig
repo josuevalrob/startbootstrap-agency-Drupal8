@@ -136,13 +136,13 @@
           page.sidebar_first is empty and page.sidebar_second is empty ? 'container'
         ]
       %}
-      <section{{ content_attributes.addClass(content_classes) }}>
+      <div{{ content_attributes.addClass(content_classes) }}>
         {# Content #}
         {% block content %}
           <a id="main-content"></a>
           {{ page.content }}
         {% endblock %}
-      </section>
+      </div>
 
       {# Sidebar Second #}
       {% if page.sidebar_second %}
