@@ -9615,3 +9615,8 @@ p:last-child,
 .bg-light {
   background-color: #f8f9fa !important;
 }
+
+/* line 21, ../scss/style.scss */
+#contact-message-feedback-form .form-item {
+  color: white;
+}
