@@ -9631,3 +9631,10 @@ section {
   display: block;
   margin-bottom: 15px;
 }
+
+/* line 33, ../scss/style.scss */
+#bootstrap-panel {
+  display: -webkit-inline-box;
+  margin: 15px;
+  width: 95%;
+}
