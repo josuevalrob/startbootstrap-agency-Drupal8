@@ -9601,22 +9601,33 @@ p:last-child,
 }
 
 /* line 10, ../scss/style.scss */
+section {
+  clear: both;
+}
+
+/* line 14, ../scss/style.scss */
 .rounded-circle, .rounded-circle img {
   border-radius: 50% !important;
 }
 
-/* line 14, ../scss/style.scss */
+/* line 18, ../scss/style.scss */
 .img-fluid, .img-fluid img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 18, ../scss/style.scss */
+/* line 22, ../scss/style.scss */
 .bg-light {
   background-color: #f8f9fa !important;
 }
 
-/* line 21, ../scss/style.scss */
+/* line 25, ../scss/style.scss */
 #contact-message-feedback-form .form-item {
   color: white;
+}
+
+/* line 29, ../scss/style.scss */
+.social-media-sharing li {
+  display: block;
+  margin-bottom: 15px;
 }

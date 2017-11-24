@@ -7,6 +7,10 @@
 // Base-theme overrides.
 @import 'overrides';
 
+section {
+	clear : both;
+}
+
 .rounded-circle, .rounded-circle img {
     border-radius: 50% !important;
 }
@@ -20,4 +24,9 @@
 }
 #contact-message-feedback-form .form-item{
 	    color: white;
+}
+
+.social-media-sharing li {
+	display: block;
+	margin-bottom: 15px;
 }
